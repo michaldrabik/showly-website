@@ -5,6 +5,9 @@
         <img alt="Showly screenshot" src="@/assets/screen1.png">
       </div>
       <div class="header__item-description">
+        <div class="header__item-description-name">
+          Showly
+        </div>
         <img
           class="header__item-description-icon"
           alt="Showly icon"
