@@ -27,15 +27,5 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'Header',
-  data () {
-    return {
-      playStoreLink: 'https://play.google.com/store/apps/details?id=com.michaldrabik.seriestoday&hl=en'
-    }
-  }
-}
-</script>
-
+<script src="./header.js"></script>
 <style src="./header.scss" lang="scss" scoped></style>
