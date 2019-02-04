@@ -1,0 +1,39 @@
+@import '@/styles/settings.scss';
+
+.features {
+    width: 100%;
+    margin-top: 35px;
+
+    &__caption {
+        text-align: center;
+        font-size: 16px;
+        color: $color-gray-dark;
+
+        &-bottom {
+            text-align: center;
+            font-weight: bold;
+            font-size: 24px;
+            color: $color-gray-dark;
+
+            ul {
+                margin-left: -28px;
+                font-size: 16px;
+                font-weight: 100;
+                color: $color-black;
+            }
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+        &-item {
+            flex: 1 0 40%;
+            margin: 20px 16px;    
+        }
+    }
+}

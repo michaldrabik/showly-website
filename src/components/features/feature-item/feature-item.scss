@@ -1,0 +1,41 @@
+@import '@/styles/settings.scss';
+
+$margin-small: 10px;
+$margin-big: 110px;
+
+.feature {
+    display: flex;
+    flex-direction: row;
+
+    &--reverse {
+        flex-direction: row-reverse;
+    } 
+
+    &__details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 $margin-small 0 $margin-big;
+
+        &--reverse {
+            margin: 0 $margin-big 0 $margin-small;
+        }
+
+        &-title {
+            margin-bottom: 10px;
+            font-weight: bold;
+            font-size: 24px;
+            color: $color-gray-dark;
+        }
+
+        &-description {
+            font-size: 15px;
+            white-space: pre-line;
+        }
+    }
+
+    &__image {
+        height: 500px;
+    }
+}

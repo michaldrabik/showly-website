@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <section class="header">
     <div class="header__container">
       <div class="header__item-image">
         <img alt="Showly screenshot" src="@/assets/screen1.png">
@@ -24,7 +24,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script src="./header.js"></script>
