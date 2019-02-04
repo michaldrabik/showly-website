@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    <div class="header__content">
+    <div class="header__container">
       <div class="header__item-image">
         <img alt="Showly screenshot" src="@/assets/screen1.png">
       </div>
