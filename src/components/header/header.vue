@@ -13,9 +13,10 @@
           Follow the best TV shows on the air!
         </div>
         <div class="header__item-description-subtitle">
-          Showly is easy to use app designed with the latest Android guidelines in mind.
+          Showly is easy to use app designed with the latest Android guidelines in mind.<br>
+          Free and without ads.
         </div>
-        <a :href="playStoreLink">
+        <a :href="playStoreLink" target="_blank">
           <img
             class="header__item-description-googleplay"
             alt="Showly icon"

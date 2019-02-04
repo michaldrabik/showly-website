@@ -3,7 +3,7 @@
 .header {
   width: 100%;
   height: 100vh;
-  background: $color-gray-light;
+  background: $color-gray-dark;
 
   &__container {
     height: 100%;
@@ -16,12 +16,12 @@
   &__item {
     &-image {
       img {
-        width: 400px;
+        width: 450px;
       }
     }
 
     &-description {
-      background: $color-gray-light;
+      background: $color-gray-dark;
       color: $color-white;
       margin-left: 50px;
       text-align: center;
