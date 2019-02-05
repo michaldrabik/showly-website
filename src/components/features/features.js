@@ -31,7 +31,7 @@ export default {
     }
   },
   methods: {
-    isReverse: function (index) {
+    isReverse (index) {
       return index % 2 !== 0
     }
   }

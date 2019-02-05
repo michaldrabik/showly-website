@@ -6,7 +6,7 @@ export default {
     isReverse: { type: Boolean }
   },
   computed: {
-    imageSrc: function () {
+    imageSrc () {
       return require('@/assets/features/' + this.image)
     }
   },
