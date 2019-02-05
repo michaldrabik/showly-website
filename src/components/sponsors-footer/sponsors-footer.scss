@@ -1,0 +1,26 @@
+@import '@/styles/settings.scss';
+
+.sponsors {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: $color-gray-light;
+
+    &__text {
+        opacity: 0.5;
+        margin: 0 20px;
+        text-align: center;
+    }
+
+    &__images {
+        display: flex;
+        margin: 20px 0;
+        img {
+            margin: 0 15px;
+            max-height: 50px;
+        }
+    }
+}

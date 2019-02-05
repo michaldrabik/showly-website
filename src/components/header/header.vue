@@ -16,7 +16,7 @@
           Follow the best TV shows on the air!
         </div>
         <div class="header__item-description-subtitle">
-          Showly is easy to use app designed with the latest Android guidelines in mind.<br>
+          Showly is easy to use TV shows tracker app designed with latest Android guidelines in mind.<br>
           Free and without ads.
         </div>
         <a :href="playStoreLink" target="_blank">
