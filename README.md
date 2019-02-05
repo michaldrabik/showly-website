@@ -1,4 +1,6 @@
-# showly-web
+# Showly App Landing Page
+
+Simple landing page created for [Showly Android App](https://play.google.com/store/apps/details?id=com.michaldrabik.seriestoday).
 
 ## Project setup
 ```
@@ -14,16 +16,3 @@ npm run serve
 ```
 npm run build
 ```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
