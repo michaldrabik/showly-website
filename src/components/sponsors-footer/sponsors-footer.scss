@@ -2,12 +2,12 @@
 
 .sponsors {
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: $color-gray-light;
+    background: $color-cream-light;
 
     &__text {
         opacity: 0.5;
@@ -20,7 +20,14 @@
         margin: 20px 0;
         img {
             margin: 0 15px;
-            max-height: 50px;
+            max-height: 60px;
         }
+    }
+
+    &__copyright {
+        width: 100%;
+        padding: 20px 0;
+        font-size: 14px;
+        background: $color-cream;
     }
 }

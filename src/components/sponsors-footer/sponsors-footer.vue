@@ -12,8 +12,11 @@
         <img src="@/assets/logo_tvdb.png">
       </a>
     </div>
-    <div class="sponsors__text">
-      Showly © 2019<br>Android, Google Play and the Google Play logo are trademarks of Google Inc.
+    <div class="sponsors__copyright">
+      <div class="sponsors__text">
+        Showly © 2019<br>
+        Android, Google Play and the Google Play logo are trademarks of Google Inc.
+      </div>
     </div>
   </section>
 </template>
