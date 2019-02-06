@@ -14,13 +14,13 @@
     </div>
     <div class="features__caption-bottom">
       And More
-      <ul>
-        <li> trakt.tv import </li>
-        <li> different color themes </li>
-        <li> notifications</li>
-        <li> widgets </li>
-        <li> UI/UX customizations </li>
-      </ul>
+      <div class="features__caption-more">
+        - trakt.tv import<br>
+        - different color themes<br>
+        - notification<br>
+        - widgets<br>
+        - UI/UX customizations<br>
+      </div>
     </div>
   </section>
 </template>

@@ -1,6 +1,6 @@
 <template>
   <div :class="classFeature()">
-    <div :class="classDetails()">
+    <div class="feature__details">
       <div class="feature__details-title"> {{ title }} </div>
       <div class="feature__details-description" v-html="description"/>
     </div>

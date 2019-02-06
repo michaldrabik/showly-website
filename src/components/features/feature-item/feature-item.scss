@@ -6,21 +6,20 @@ $margin-big: 110px;
 .feature {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 
     &--reverse {
         flex-direction: row-reverse;
     } 
 
     &__details {
+        max-width: 300px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        margin: 0 $margin-small 0 $margin-big;
-
-        &--reverse {
-            margin: 0 $margin-big 0 $margin-small;
-        }
+        margin: 20px 0;
 
         &-title {
             margin-bottom: 10px;

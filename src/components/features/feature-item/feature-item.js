@@ -16,12 +16,6 @@ export default {
         'feature': true,
         'feature--reverse': this.isReverse
       }
-    },
-    classDetails () {
-      return {
-        'feature__details': true,
-        'feature__details--reverse': this.isReverse
-      }
     }
   }
 }

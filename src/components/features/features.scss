@@ -1,8 +1,7 @@
 @import '@/styles/settings.scss';
 
 .features {
-    width: 100%;
-    margin-top: 20px;
+    margin: 20px 100px;
 
     &__caption {
         text-align: center;
@@ -15,13 +14,13 @@
             font-weight: bold;
             font-size: 24px;
             color: $color-gray-dark;
-
-            ul {
-                margin-left: -28px;
-                font-size: 16px;
-                font-weight: 100;
-                color: $color-black;
-            }
+        }
+        
+        &-more {
+            margin: 10px 10px 0 0;
+            font-size: 16px;
+            font-weight: 100;
+            color: $color-black;
         }
     }
 

@@ -1,7 +1,6 @@
 @import '@/styles/settings.scss';
 
 .sponsors {
-    width: 100%;
     padding: 20px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -17,9 +16,11 @@
 
     &__images {
         display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
         margin: 20px 0;
         img {
-            margin: 0 15px;
+            margin: 10px 15px;
             max-height: 60px;
         }
     }
