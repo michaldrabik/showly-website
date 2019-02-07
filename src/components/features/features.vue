@@ -15,10 +15,10 @@
     <div class="features__caption-bottom">
       And More
       <div class="features__caption-more">
-        - trakt.tv import<br>
+        - trakt.tv progress import<br>
         - different color themes<br>
-        - notification<br>
-        - widgets<br>
+        - notifications<br>
+        - widget<br>
         - UI/UX customizations<br>
       </div>
     </div>
