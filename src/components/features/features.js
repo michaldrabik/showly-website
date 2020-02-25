@@ -8,23 +8,23 @@ export default {
     return {
       items: [
         {
-          title: 'See Best Shows',
+          title: 'Discover Best Shows',
           description: 'Browse hundreds of shows, seasons and episodes. Follow the ones you enjoy and never miss an episode!',
           image: 'feature1.png'
         },
         {
           title: 'Track Progress',
-          description: 'Simply create a watchlist by choosing your favorite shows and track your progress.\n\nWatchlist will show you next episode to watch, its description and more.',
+          description: 'Choose your favorite shows and track your progress.\n\nWatchlist will show you next episode to watch and incoming episodes.',
           image: 'feature2.png'
         },
         {
-          title: 'Search & Discover',
-          description: "Quickly find shows you are looking for and check out latest trending and the most popular ones!\n\nShowly is backed by huge <a href='https://trakt.tv'><b>Trakt.tv</b></a> catalogue.",
+          title: 'Search',
+          description: "Quickly find shows you are looking for and check out latest trending and the most popular ones!\n\nShowly 2.0 is backed by huge <a href='https://trakt.tv'><b>Trakt.tv</b></a> catalogue.",
           image: 'feature3.png'
         },
         {
-          title: 'Custom Lists',
-          description: 'Create and manage your own custom list of shows and episodes.',
+          title: 'Your Shows',
+          description: 'Quickly access and browse shows you are currently watching and also plan to see in the future.',
           image: 'feature4.png'
         }
       ]

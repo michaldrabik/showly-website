@@ -25,12 +25,13 @@ $margin-big: 110px;
             margin-bottom: 10px;
             font-weight: bold;
             font-size: 24px;
-            color: $color-gray-dark;
+            color: $color-red;
         }
 
         &-description {
             font-size: 15px;
             white-space: pre-line;
+            color: $color-white;
         }
     }
 

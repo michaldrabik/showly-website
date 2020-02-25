@@ -44,13 +44,25 @@
       }
 
       &-subtitle {
+        line-height: 1.5;
         font-size: 14px;
         margin-top: 10px;
       }
+    }
+
+    &-links {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       &-googleplay {
-        margin-top: 40px;
         width: 200px;
+      }
+
+      &-github {
+        margin-left: 20px;
+        width: 180px;
       }
     }
   }

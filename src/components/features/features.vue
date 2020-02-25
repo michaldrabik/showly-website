@@ -13,13 +13,11 @@
       />
     </div>
     <div class="features__caption-bottom">
-      And More
+      And more:
       <div class="features__caption-more">
-        - trakt.tv progress import<br>
-        - different color themes<br>
-        - notifications<br>
-        - widget<br>
-        - UI/UX customizations<br>
+        - Trakt.tv import/export<br>
+        - Notifications<br>
+        - UI/UX Customizations<br>
       </div>
     </div>
   </section>

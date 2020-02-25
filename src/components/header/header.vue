@@ -6,23 +6,30 @@
       </div>
       <div class="header__item-description">
         <div class="header__item-description-name">
-          Showly
+          Showly 2.0
         </div>
         <img
           class="header__item-description-icon"
           src="@/assets/icon.png">
         <div class="header__item-description-title">
-          Follow the best TV shows on the air!
+          Follow the best TV Shows on the air!
         </div>
         <div class="header__item-description-subtitle">
-          Showly is easy to use TV shows tracker app designed with latest Android guidelines in mind.<br>
-          Free and without ads.
+          Showly 2.0 is modern, open source TV Shows tracker app designed with latest Android guidelines.<br>
+          Completely free and without ads.
         </div>
-        <a :href="playStoreLink" target="_blank">
-          <img
-            class="header__item-description-googleplay"
-            src="@/assets/google_play.png">
-        </a>
+        <div class="header__item-links">
+          <a :href="playStoreLink" target="_blank">
+            <img
+              class="header__item-links-googleplay"
+              src="@/assets/google_play.png">
+          </a>
+          <a :href="githubLink" target="_blank">
+            <img
+              class="header__item-links-github"
+              src="@/assets/github.png">
+          </a>    
+        </div>    
       </div>
     </div>
   </section>

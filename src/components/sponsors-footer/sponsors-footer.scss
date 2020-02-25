@@ -6,12 +6,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: $color-cream-light;
+    background: $color-gray-dark;
 
     &__text {
-        opacity: 0.5;
         margin: 0 20px;
         text-align: center;
+        color: $color-white;
     }
 
     &__images {
@@ -29,6 +29,7 @@
         width: 100%;
         padding: 20px 0;
         font-size: 14px;
-        background: $color-cream;
+        background: $color-gray-dark2;
+        color: $color-white;
     }
 }

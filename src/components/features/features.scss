@@ -5,22 +5,24 @@
 
     &__caption {
         text-align: center;
-        font-size: 16px;
-        color: $color-gray-dark;
+        font-size: 20px;
+        font-weight: bold;
+        color: $color-red;
 
         &-bottom {
             margin-bottom: 40px;
             text-align: center;
             font-weight: bold;
             font-size: 24px;
-            color: $color-gray-dark;
+            color: $color-white;
         }
         
         &-more {
             margin: 10px 10px 0 0;
             font-size: 16px;
             font-weight: 100;
-            color: $color-black;
+            line-height: 1.2;
+            color: $color-white;
         }
     }
 
@@ -33,7 +35,7 @@
 
         &-item {
             flex: 1 0 40%;
-            margin: 20px 16px;    
+            margin: 20px 16px;
         }
     }
 }
