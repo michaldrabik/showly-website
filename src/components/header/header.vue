@@ -28,8 +28,8 @@
             <img
               class="header__item-links-github"
               src="@/assets/github.png">
-          </a>    
-        </div>    
+          </a>
+        </div>
       </div>
     </div>
   </section>
