@@ -1,9 +1,10 @@
 @import '@/styles/settings.scss';
 
 .features {
-    margin: 20px 100px;
+    margin: 40px 100px;
 
     &__caption {
+        margin-bottom: 20px;
         text-align: center;
         font-size: 20px;
         font-weight: bold;
