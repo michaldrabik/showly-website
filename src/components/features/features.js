@@ -40,7 +40,7 @@ export default {
     itemClassModifier (index) {
       return {
         'features__container-item': true,
-        'features__container-item--reverse': this.isReverse(index),
+        'features__container-item--reverse': this.isReverse(index)
       }
     }
   }
