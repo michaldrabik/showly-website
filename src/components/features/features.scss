@@ -37,6 +37,11 @@
         &-item {
             flex: 1 0 40%;
             margin: 20px 16px;
+            justify-content: end;
+            
+            &--reverse {
+                justify-content: start;
+            } 
         }
     }
 }

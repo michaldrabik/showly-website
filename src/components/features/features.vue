@@ -7,16 +7,17 @@
       <FeatureItem
         v-for="(item, index) in items"
         :key="index"
-        class="features__container-item"
         v-bind="item"
+        :class="itemClassModifier(index)"
         :isReverse="isReverse(index)"
       />
     </div>
     <div class="features__caption-bottom">
       And more:
       <div class="features__caption-more">
-        - Trakt.tv import/export<br>
+        - Trakt.tv Sync<br>
         - Notifications<br>
+        - Widgets<br>
         - UI/UX Customizations<br>
       </div>
     </div>

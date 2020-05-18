@@ -15,7 +15,7 @@
           Follow the best TV Shows on the air!
         </div>
         <div class="header__item-description-subtitle">
-          Showly 2.0 is modern, open source TV Shows tracker app designed with latest Android guidelines.<br>
+          Showly 2.0 is modern, <b>open source</b> TV Shows tracker app designed with latest Android guidelines.<br>
           Completely free and without ads.
         </div>
         <div class="header__item-links">

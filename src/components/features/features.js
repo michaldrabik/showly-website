@@ -30,9 +30,18 @@ export default {
       ]
     }
   },
+  computed: {
+
+  },
   methods: {
     isReverse (index) {
       return index % 2 !== 0
+    },
+    itemClassModifier (index) {
+      return {
+        'features__container-item': true,
+        'features__container-item--reverse': this.isReverse(index),
+      }
     }
   }
 }
