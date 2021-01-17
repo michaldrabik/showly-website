@@ -15,16 +15,21 @@
           Discover the best shows and movies and track your progress.
           Use your Trakt account to quickly synchronize progress and watchlist.
           <br><br>
-          Receive notifications about new episodes , seasons and premieres.
+          Receive notifications about new episodes, seasons and premieres.
           Use widgets and shortcuts to quickly access your favorite sections.
           <br><br>
-          Showly is available to download for free on Google PlayStore.
+          Showly is available for free on Google PlayStore.
         </div>        
         <div class="header__item-links">
           <a :href="playStoreLink" target="_blank">
             <img
               class="header__item-links-googleplay"
               src="@/assets/google_play.png">
+          </a>
+          <a :href="twitterLink" target="_blank">
+            <img
+              class="header__item-links-twitter"
+              src="@/assets/twitter.svg">
           </a>
           <a :href="githubLink" target="_blank">
             <img
