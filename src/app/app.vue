@@ -1,8 +1,6 @@
 <template>
   <div id="app">
     <Header/>
-    <Features/>
-    <SponsorsFooter/>
   </div>
 </template>
 

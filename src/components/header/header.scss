@@ -1,10 +1,9 @@
 @import '@/styles/settings.scss';
 
 .header {
-  background: $color-gray-dark;
 
   &__container {
-    height: 100%;
+    height: 100vh;
     margin: 0 20px;
     display: flex;
     align-items: center;
@@ -15,7 +14,7 @@
   &__item {
     &-image {
       margin: 50px;
-      max-width: 400px;
+      max-width: 475px;
       img {
         max-width: 100%;
         height: auto;
@@ -23,46 +22,62 @@
     }
 
     &-description {
-      margin: 20px 0;
+      max-width: 500px;
       color: $color-white;
-      text-align: center;
+      text-align: justify;
+
+      &-header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
 
       &-name {
-        font-size: 50px;
+        font-size: 38px;
         font-weight: bold;
+        color: $color-red;
       }
 
       &-icon {
-        width: 140px;
-        margin: 25px 0;
+        width: 100px;
+        margin: 15px 10px 15px -11px;
       }
-
-      &-title {
-        font-size: 25px;
-        font-weight: bold;
-        line-height: 1;
-      }
-
+      
       &-subtitle {
-        line-height: 1.5;
-        font-size: 14px;
+        line-height: 1.2;
+        font-size: 26px;
+        font-weight: bold;
         margin-top: 10px;
+      }
+
+      &-overview {
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-weight: 200;
+        font-size: 15px;
       }
     }
 
     &-links {
-      margin-top: 40px;
+      margin-top: 20px;
       display: flex;
-      justify-content: center;
+      justify-content: start;
       align-items: center;
 
       &-googleplay {
-        width: 200px;
+        width: 180px;
       }
 
       &-github {
         margin-left: 20px;
-        width: 180px;
+        width: 160px;
+      }
+
+      &-twitter {
+        margin-left: 30px;
+        width: 52px;
+        height: 52px;
       }
     }
   }
