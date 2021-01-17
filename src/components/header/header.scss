@@ -1,19 +1,16 @@
 @import '@/styles/settings.scss';
 
 .header {
-
-  &__container {
-    height: 100vh;
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap-reverse;
-  }
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 
   &__item {
     &-image {
-      margin: 50px;
+      margin: 40px 20px 0 20px;
       max-width: 475px;
       img {
         max-width: 100%;
@@ -25,6 +22,7 @@
       max-width: 500px;
       color: $color-white;
       text-align: justify;
+      margin: 0 20px;
 
       &-header {
         display: flex;
@@ -51,33 +49,36 @@
       }
 
       &-overview {
+        text-align: justify;
         line-height: 1.2;
         margin-top: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
         font-weight: 200;
         font-size: 15px;
       }
     }
 
     &-links {
-      margin-top: 20px;
+      margin: 0 0 20px 0;
       display: flex;
-      justify-content: start;
+      justify-content: center;
       align-items: center;
+      flex-wrap: wrap;
 
       &-googleplay {
         width: 180px;
+        margin: 10px 20px 0 10px;
       }
 
       &-github {
-        margin-left: 20px;
         width: 160px;
+        margin: 10px 20px 0 20px;
       }
 
       &-twitter {
-        margin-left: 30px;
         width: 52px;
         height: 52px;
+        margin: 10px 10px 0 20px;
       }
     }
   }

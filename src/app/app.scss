@@ -1,12 +1,13 @@
 @import '@/styles/settings.scss';
 
 html, body {
+    height: 100%;
     position: relative;
     margin: 0;
+    background: $color-gray-dark;
   }
   
   #app {
-    background: $color-gray-dark;
     font-family: 'Rubik', 'Avenir', Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
