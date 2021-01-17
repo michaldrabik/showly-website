@@ -19,7 +19,7 @@
           Use widgets and shortcuts to quickly access your favorite sections.
           <br><br>
           Showly is available for free on Google PlayStore.
-        </div>        
+        </div>
         <div class="header__item-links">
           <a :href="playStoreLink" target="_blank">
             <img
@@ -37,7 +37,7 @@
               src="@/assets/github.png">
           </a>
         </div>
-      </div>      
+      </div>
       <div class="header__item-image">
         <img src="@/assets/screen1.png">
       </div>
